@@ -1,0 +1,41 @@
+<svg viewBox="0 0 480 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of three jars of RILEY honey — native, pōhutukawa, and mānuka">
+
+  <!-- ===== Jar template used three times, varied colour ===== -->
+
+  <!-- Jar 1: Native (lighter honey) -->
+  <g transform="translate(20,60)">
+    <g transform="translate(6,10)" opacity="0.14"><path d="M10 40 L110 40 L120 62 L120 190 Q120 208 100 208 L20 208 Q0 208 0 190 L0 62 Z" fill="#293a2b"/></g>
+    <path d="M18 18 Q20 6 34 6 L86 6 Q100 6 102 18 L106 40 L14 40 Z" fill="#e6dcc3" stroke="#20241c" stroke-width="3"/>
+    <path d="M10 40 L110 40 L120 62 Q123 70 123 80 L123 190 Q123 208 103 208 L17 208 Q-3 208 -3 190 L-3 80 Q-3 70 0 62 Z" fill="#f1ead8" stroke="#20241c" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M-3 165 Q60 154 123 165 L123 190 Q123 208 103 208 L17 208 Q-3 208 -3 190 Z" fill="#d9a441"/>
+    <path d="M-3 165 Q60 154 123 165" stroke="#20241c" stroke-width="2.5" fill="none"/>
+    <rect x="8" y="105" width="104" height="46" rx="3" fill="#f1ead8" stroke="#20241c" stroke-width="2.5"/>
+    <text x="60" y="126" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#20241c">RILEY</text>
+    <text x="60" y="140" text-anchor="middle" font-family="'Courier New', monospace" font-size="7" letter-spacing="1.5" fill="#767f60">NATIVE</text>
+  </g>
+
+  <!-- Jar 2: Pōhutukawa (mid amber) -->
+  <g transform="translate(180,40)">
+    <g transform="translate(6,10)" opacity="0.14"><path d="M14 46 L126 46 L138 70 L138 210 Q138 230 116 230 L24 230 Q2 230 2 210 L2 70 Z" fill="#293a2b"/></g>
+    <path d="M22 20 Q24 6 40 6 L100 6 Q116 6 118 20 L122 46 L18 46 Z" fill="#a23f2b" stroke="#20241c" stroke-width="3.5"/>
+    <path d="M14 46 L126 46 L138 70 Q142 78 142 90 L142 210 Q142 230 120 230 L20 230 Q-2 230 -2 210 L-2 90 Q-2 78 2 70 Z" fill="#f1ead8" stroke="#20241c" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M-2 178 Q70 165 142 178 L142 210 Q142 230 120 230 L20 230 Q-2 230 -2 210 Z" fill="#c1841f"/>
+    <path d="M-2 178 Q70 165 142 178" stroke="#20241c" stroke-width="2.5" fill="none"/>
+    <rect x="10" y="115" width="120" height="52" rx="3" fill="#f1ead8" stroke="#20241c" stroke-width="2.5"/>
+    <text x="70" y="139" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#20241c">RILEY</text>
+    <text x="70" y="155" text-anchor="middle" font-family="'Courier New', monospace" font-size="7.5" letter-spacing="1.5" fill="#8a5a12">P&#332;HUTUKAWA</text>
+    <path d="M118 -10 Q130 -22 142 -10 Q130 2 118 -10 Z" fill="#a23f2b" stroke="#20241c" stroke-width="2"/>
+  </g>
+
+  <!-- Jar 3: Mānuka (dark, high grade) -->
+  <g transform="translate(350,55)">
+    <g transform="translate(6,10)" opacity="0.14"><path d="M10 42 L108 42 L118 64 L118 196 Q118 214 98 214 L20 214 Q0 214 0 196 L0 64 Z" fill="#293a2b"/></g>
+    <path d="M18 18 Q20 6 34 6 L84 6 Q98 6 100 18 L104 42 L14 42 Z" fill="#20241c" stroke="#20241c" stroke-width="3"/>
+    <path d="M10 42 L108 42 L118 64 Q121 72 121 82 L121 196 Q121 214 101 214 L17 214 Q-3 214 -3 196 L-3 82 Q-3 72 0 64 Z" fill="#f1ead8" stroke="#20241c" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M-3 150 Q59 138 121 150 L121 196 Q121 214 101 214 L17 214 Q-3 214 -3 196 Z" fill="#8a5a12"/>
+    <path d="M-3 150 Q59 138 121 150" stroke="#20241c" stroke-width="2.5" fill="none"/>
+    <rect x="6" y="95" width="106" height="46" rx="3" fill="#f1ead8" stroke="#20241c" stroke-width="2.5"/>
+    <text x="59" y="116" text-anchor="middle" font-family="Georgia, serif" font-size="12.5" fill="#20241c">RILEY</text>
+    <text x="59" y="130" text-anchor="middle" font-family="'Courier New', monospace" font-size="7" letter-spacing="1" fill="#8a5a12">M&#256;NUKA 971+</text>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg viewBox="0 0 400 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a honeycomb cross-section dripping with honey">
+  <defs>
+    <clipPath id="combClip">
+      <path d="M0 0 L400 0 L400 190 Q300 230 200 200 Q100 232 0 195 Z"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#combClip)">
+    <rect width="400" height="260" fill="#e6dcc3"/>
+    <g stroke="#20241c" stroke-width="2.5" fill="#f1ead8">
+      <!-- hex grid -->
+      <g id="hexrow">
+        <polygon points="30,10 55,25 55,55 30,70 5,55 5,25"/>
+        <polygon points="80,10 105,25 105,55 80,70 55,55 55,25"/>
+        <polygon points="130,10 155,25 155,55 130,70 105,55 105,25"/>
+        <polygon points="180,10 205,25 205,55 180,70 155,55 155,25"/>
+        <polygon points="230,10 255,25 255,55 230,70 205,55 205,25"/>
+        <polygon points="280,10 305,25 305,55 280,70 255,55 255,25"/>
+        <polygon points="330,10 355,25 355,55 330,70 305,55 305,25"/>
+        <polygon points="380,10 405,25 405,55 380,70 355,55 355,25"/>
+      </g>
+      <use href="#hexrow" x="-27" y="47"/>
+      <use href="#hexrow" x="0" y="94"/>
+      <use href="#hexrow" x="-27" y="141"/>
+      <use href="#hexrow" x="0" y="188"/>
+    </g>
+    <!-- honey fill in some cells -->
+    <g fill="#c1841f" opacity="0.92">
+      <polygon points="80,57 105,72 105,102 80,117 55,102 55,72"/>
+      <polygon points="180,57 205,72 205,102 180,117 155,102 155,72"/>
+      <polygon points="130,104 155,119 155,149 130,164 105,149 105,119"/>
+      <polygon points="280,104 305,119 305,149 280,164 255,149 255,119"/>
+      <polygon points="30,151 55,166 55,196 30,211 5,196 5,166"/>
+      <polygon points="230,151 255,166 255,196 230,211 205,196 205,166"/>
+      <polygon points="330,151 355,166 355,196 330,211 305,196 305,166"/>
+    </g>
+    <g stroke="#20241c" stroke-width="2.5" fill="none">
+      <use href="#hexrow"/>
+      <use href="#hexrow" x="-27" y="47"/>
+      <use href="#hexrow" x="0" y="94"/>
+      <use href="#hexrow" x="-27" y="141"/>
+      <use href="#hexrow" x="0" y="188"/>
+    </g>
+  </g>
+  <!-- torn/drip edge -->
+  <path d="M0 195 Q100 232 200 200 Q300 230 400 190 L400 205 Q300 245 200 215 Q100 247 0 210 Z" fill="#e6dcc3" stroke="#20241c" stroke-width="3"/>
+  <path d="M60 214 Q58 232 62 244" stroke="#c1841f" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="62" cy="250" rx="4" ry="6" fill="#c1841f" stroke="#20241c" stroke-width="1.5"/>
+  <path d="M210 212 Q208 228 212 240" stroke="#c1841f" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="212" cy="246" rx="3.5" ry="5" fill="#c1841f" stroke="#20241c" stroke-width="1.5"/>
+</svg>

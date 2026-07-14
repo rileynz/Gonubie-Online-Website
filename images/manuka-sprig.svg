@@ -1,0 +1,63 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Botanical line illustration of mānuka flowers and leaves">
+  <g stroke="#20241c" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M40 280 Q90 180 150 130 Q210 84 260 40" />
+    <path d="M150 130 Q160 100 148 70" />
+    <path d="M180 108 Q195 84 190 55" />
+    <path d="M110 165 Q95 145 100 118" />
+  </g>
+
+  <!-- leaves -->
+  <g fill="#293a2b" stroke="#20241c" stroke-width="1.5">
+    <path d="M120 175 Q100 168 92 150 Q112 152 120 175 Z"/>
+    <path d="M140 150 Q160 140 176 122 Q158 122 140 150 Z"/>
+    <path d="M170 118 Q152 112 144 96 Q164 96 170 118 Z"/>
+    <path d="M95 220 Q75 214 66 196 Q86 196 95 220 Z"/>
+    <path d="M65 250 Q45 246 34 228 Q54 228 65 250 Z"/>
+  </g>
+
+  <!-- flowers: five-petal manuka blooms -->
+  <g id="bloomA">
+    <g transform="translate(190,55)">
+      <g fill="#f1ead8" stroke="#20241c" stroke-width="2">
+        <ellipse cx="0" cy="-14" rx="9" ry="12"/>
+        <ellipse cx="13" cy="-4" rx="9" ry="12" transform="rotate(72 13 -4)"/>
+        <ellipse cx="8" cy="12" rx="9" ry="12" transform="rotate(144 8 12)"/>
+        <ellipse cx="-8" cy="12" rx="9" ry="12" transform="rotate(216 -8 12)"/>
+        <ellipse cx="-13" cy="-4" rx="9" ry="12" transform="rotate(288 -13 -4)"/>
+      </g>
+      <circle r="5" fill="#c1841f" stroke="#20241c" stroke-width="1.5"/>
+    </g>
+  </g>
+
+  <use href="#bloomA" x="45" y="-15" transform="scale(0.8)"/>
+
+  <g transform="translate(148,70)">
+    <g fill="#f1ead8" stroke="#20241c" stroke-width="1.6" transform="scale(0.72)">
+      <ellipse cx="0" cy="-14" rx="9" ry="12"/>
+      <ellipse cx="13" cy="-4" rx="9" ry="12" transform="rotate(72 13 -4)"/>
+      <ellipse cx="8" cy="12" rx="9" ry="12" transform="rotate(144 8 12)"/>
+      <ellipse cx="-8" cy="12" rx="9" ry="12" transform="rotate(216 -8 12)"/>
+      <ellipse cx="-13" cy="-4" rx="9" ry="12" transform="rotate(288 -13 -4)"/>
+    </g>
+    <circle r="4" fill="#c1841f" stroke="#20241c" stroke-width="1.2"/>
+  </g>
+
+  <g transform="translate(258,38)">
+    <g fill="#f1ead8" stroke="#20241c" stroke-width="1.8" transform="scale(0.85)">
+      <ellipse cx="0" cy="-14" rx="9" ry="12"/>
+      <ellipse cx="13" cy="-4" rx="9" ry="12" transform="rotate(72 13 -4)"/>
+      <ellipse cx="8" cy="12" rx="9" ry="12" transform="rotate(144 8 12)"/>
+      <ellipse cx="-8" cy="12" rx="9" ry="12" transform="rotate(216 -8 12)"/>
+      <ellipse cx="-13" cy="-4" rx="9" ry="12" transform="rotate(288 -13 -4)"/>
+    </g>
+    <circle r="4.5" fill="#c1841f" stroke="#20241c" stroke-width="1.4"/>
+  </g>
+
+  <!-- bee -->
+  <g transform="translate(230,90) rotate(20)">
+    <ellipse cx="0" cy="0" rx="9" ry="6" fill="#20241c"/>
+    <path d="M-5 -2.5 L5 -2.5 M-5 0 L5 0 M-5 2.5 L5 2.5" stroke="#c1841f" stroke-width="1.6"/>
+    <path d="M-3 -6 Q-12 -12 -8 -1" stroke="#20241c" stroke-width="1.2" fill="none"/>
+    <path d="M3 -6 Q12 -12 8 -1" stroke="#20241c" stroke-width="1.2" fill="none"/>
+  </g>
+</svg>

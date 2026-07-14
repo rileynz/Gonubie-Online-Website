@@ -1,0 +1,49 @@
+<svg viewBox="0 0 420 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of beehives on a Coromandel hillside overlooking the coast">
+  <rect width="420" height="300" fill="#e6dcc3"/>
+  <!-- sky sun -->
+  <circle cx="350" cy="60" r="30" fill="#c1841f" opacity="0.9"/>
+  <circle cx="350" cy="60" r="30" stroke="#20241c" stroke-width="2.5" fill="none"/>
+
+  <!-- sea -->
+  <path d="M0 150 L420 150 L420 190 Q300 178 210 188 Q110 198 0 182 Z" fill="#7c8c86"/>
+  <path d="M0 150 L420 150 L420 190 Q300 178 210 188 Q110 198 0 182 Z" stroke="#20241c" stroke-width="2" fill="none" opacity="0.4"/>
+
+  <!-- far hills -->
+  <path d="M0 165 Q80 130 160 160 Q240 190 320 150 Q380 128 420 145 L420 300 L0 300 Z" fill="#3a4f3c"/>
+
+  <!-- near hill -->
+  <path d="M0 220 Q100 175 220 205 Q320 230 420 200 L420 300 L0 300 Z" fill="#293a2b" stroke="#20241c" stroke-width="3"/>
+
+  <!-- hives -->
+  <g stroke="#20241c" stroke-width="2.5">
+    <g transform="translate(90,215)">
+      <rect x="0" y="18" width="46" height="16" rx="2" fill="#f1ead8"/>
+      <rect x="3" y="2" width="40" height="16" rx="2" fill="#c1841f"/>
+      <rect x="-4" y="34" width="54" height="8" rx="2" fill="#a23f2b"/>
+    </g>
+    <g transform="translate(160,232)">
+      <rect x="0" y="18" width="46" height="16" rx="2" fill="#f1ead8"/>
+      <rect x="3" y="2" width="40" height="16" rx="2" fill="#c1841f"/>
+      <rect x="-4" y="34" width="54" height="8" rx="2" fill="#a23f2b"/>
+    </g>
+    <g transform="translate(240,220)">
+      <rect x="0" y="18" width="46" height="16" rx="2" fill="#f1ead8"/>
+      <rect x="3" y="2" width="40" height="16" rx="2" fill="#c1841f"/>
+      <rect x="-4" y="34" width="54" height="8" rx="2" fill="#a23f2b"/>
+    </g>
+  </g>
+
+  <!-- manuka scrub dots -->
+  <g fill="#f1ead8" stroke="#20241c" stroke-width="1.2">
+    <circle cx="60" cy="205" r="3"/>
+    <circle cx="70" cy="200" r="2.5"/>
+    <circle cx="330" cy="235" r="3"/>
+    <circle cx="340" cy="228" r="2.5"/>
+    <circle cx="200" cy="198" r="2.5"/>
+  </g>
+
+  <!-- bee trail -->
+  <path d="M110 205 Q140 180 175 195 Q210 210 250 190" stroke="#20241c" stroke-width="1.5" stroke-dasharray="2 5" fill="none" opacity="0.6"/>
+
+  <text x="20" y="285" font-family="'Courier New', monospace" font-size="10" letter-spacing="2" fill="#20241c" opacity="0.55">COROMANDEL PENINSULA &#183; NZ</text>
+</svg>

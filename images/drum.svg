@@ -1,0 +1,28 @@
+<svg viewBox="0 0 260 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a 300kg food-grade steel export drum">
+  <g transform="translate(6,10)" opacity="0.15">
+    <path d="M40 40 L220 40 L214 250 Q214 264 130 264 Q46 264 46 250 Z" fill="#293a2b"/>
+  </g>
+  <ellipse cx="130" cy="40" rx="90" ry="20" fill="#e6dcc3" stroke="#20241c" stroke-width="3.5"/>
+  <path d="M40 40 L46 250 Q46 264 130 264 Q214 264 214 250 L220 40" fill="#293a2b" stroke="#20241c" stroke-width="3.5" stroke-linejoin="round"/>
+  <ellipse cx="130" cy="40" rx="90" ry="20" fill="none" stroke="#20241c" stroke-width="3.5"/>
+
+  <!-- body shading -->
+  <path d="M60 55 L54 245 Q54 254 130 256 Q206 254 206 245 L200 55" fill="#324734" opacity="0.6"/>
+  <path d="M92 50 L88 248" stroke="#0000" stroke-width="0"/>
+  <path d="M100 46 L96 250" stroke="#f1ead8" stroke-width="6" stroke-linecap="round" opacity="0.18"/>
+
+  <!-- rolling hoops -->
+  <path d="M42 100 Q130 116 218 100" stroke="#20241c" stroke-width="5" fill="none"/>
+  <path d="M44 180 Q130 196 216 180" stroke="#20241c" stroke-width="5" fill="none"/>
+
+  <!-- amber accent band -->
+  <path d="M46 130 Q130 145 214 130 L212 158 Q130 173 48 158 Z" fill="#c1841f" stroke="#20241c" stroke-width="2.5"/>
+
+  <!-- stencil label -->
+  <text x="130" y="150" text-anchor="middle" font-family="'Courier New', monospace" font-weight="bold" font-size="15" fill="#20241c" letter-spacing="1">300&#160;KG</text>
+
+  <text x="130" y="225" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#e6dcc3" letter-spacing="2">RILEY &#183; FOOD GRADE</text>
+
+  <!-- lid rim detail -->
+  <ellipse cx="130" cy="40" rx="60" ry="13" fill="none" stroke="#20241c" stroke-width="2" opacity="0.4"/>
+</svg>

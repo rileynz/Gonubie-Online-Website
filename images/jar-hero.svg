@@ -1,0 +1,45 @@
+<svg viewBox="0 0 320 380" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a jar of RILEY honey with a honey dipper">
+  <!-- offset shadow layer -->
+  <g transform="translate(8,12)" opacity="0.16">
+    <path d="M96 92 L100 60 Q102 46 116 46 L204 46 Q218 46 220 60 L224 92 L236 130 L240 300 Q240 322 216 322 L104 322 Q80 322 80 300 L84 130 Z" fill="#293a2b"/>
+  </g>
+
+  <!-- lid -->
+  <path d="M100 60 Q102 40 122 40 L198 40 Q218 40 220 60 L224 84 L96 84 Z" fill="#a23f2b" stroke="#20241c" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M108 62 L212 62" stroke="#20241c" stroke-width="2" opacity="0.35"/>
+  <path d="M104 74 L216 74" stroke="#20241c" stroke-width="2" opacity="0.35"/>
+
+  <!-- jar body -->
+  <path d="M96 92 L224 92 L238 128 Q242 138 242 152 L242 300 Q242 324 216 324 L104 324 Q78 324 78 300 L78 152 Q78 138 82 128 Z"
+        fill="#f1ead8" stroke="#20241c" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- glass shine -->
+  <path d="M100 130 Q94 190 100 280" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- honey fill at base -->
+  <path d="M80 250 Q160 236 240 250 L240 300 Q240 324 216 324 L104 324 Q80 324 80 300 Z" fill="#c1841f"/>
+  <path d="M80 250 Q160 236 240 250" stroke="#20241c" stroke-width="3" fill="none"/>
+
+  <!-- label band -->
+  <rect x="88" y="170" width="144" height="66" rx="4" fill="#f1ead8" stroke="#20241c" stroke-width="3"/>
+  <rect x="88" y="170" width="144" height="66" rx="4" fill="none" stroke="#20241c" stroke-width="1" opacity="0.25" transform="scale(0.96) translate(7,7)"/>
+  <text x="160" y="200" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#20241c" letter-spacing="1">RILEY</text>
+  <text x="160" y="219" text-anchor="middle" font-family="'Courier New', monospace" font-size="9.5" letter-spacing="3" fill="#8a5a12">RAW &#183; NZ HONEY</text>
+
+  <!-- dipper -->
+  <g transform="rotate(18 250 120)">
+    <path d="M250 60 L250 175" stroke="#8a5a12" stroke-width="6" stroke-linecap="round"/>
+    <path d="M236 168 Q250 190 264 168 Q264 185 250 198 Q236 185 236 168 Z" fill="#c1841f" stroke="#20241c" stroke-width="2.5"/>
+  </g>
+  <!-- drips -->
+  <ellipse cx="272" cy="205" rx="4" ry="6" fill="#c1841f" stroke="#20241c" stroke-width="1.5"/>
+  <ellipse cx="280" cy="222" rx="3" ry="4.5" fill="#c1841f" stroke="#20241c" stroke-width="1.5"/>
+
+  <!-- bee accent -->
+  <g transform="translate(56,60) rotate(-12)">
+    <ellipse cx="0" cy="0" rx="10" ry="7" fill="#20241c"/>
+    <path d="M-6 -3 L6 -3 M-6 0 L6 0 M-6 3 L6 3" stroke="#c1841f" stroke-width="2"/>
+    <path d="M-4 -8 Q-14 -14 -10 -2" stroke="#20241c" stroke-width="1.5" fill="none"/>
+    <path d="M4 -8 Q14 -14 10 -2" stroke="#20241c" stroke-width="1.5" fill="none"/>
+  </g>
+</svg>
