@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Gonubie Limited, RILEY Honey</title>
+<meta name="description" content="Get in touch with Gonubie Limited for wholesale pricing, private label, distributor enquiries, or questions about RILEY honey and RILEY Mead.">
+<link rel="icon" href="images/jar-hero.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Public+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="30" cy="30" r="28" stroke="currentColor" stroke-width="1.2"/>
+        <circle cx="30" cy="30" r="22" stroke="currentColor" stroke-width="1"/>
+        <path d="M30 14 L36 24 L30 30 L24 24 Z" fill="currentColor"/>
+        <path d="M30 30 L38 34 L34 42 L26 42 L22 34 Z" stroke="currentColor" stroke-width="1.1" fill="none"/>
+      </svg>
+      <span class="brand-text">
+        <span class="g">Gonubie</span>
+        <span class="r">Riley Honey Co.</span>
+      </span>
+    </a>
+    <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="provenance.html">Provenance</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="contact.html" class="cta-btn">Enquire</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-head">
+    <div class="wrap">
+      <div class="eyebrow">Export & wholesale enquiries</div>
+      <h1 style="font-size:clamp(2rem,3.6vw,2.8rem);">Get in touch</h1>
+      <p class="lede">For wholesale pricing, private label, distributor arrangements, or questions about the RILEY Mead project, reach us directly — we're a small team and you'll hear back from the person actually running the business.</p>
+    </div>
+  </section>
+
+  <section class="tight">
+    <div class="wrap contact-grid">
+      <div class="contact-block">
+        <dl>
+          <dt>Contact</dt>
+          <dd>Wynand Breytenbach</dd>
+          <dt>Phone</dt>
+          <dd><a href="tel:+64226995296">+64 22 699 5296</a></dd>
+          <dt>Email</dt>
+          <dd><a href="mailto:slowjig65@gmail.com?subject=Enquiry%20from%20Gonubie%20website">slowjig65@gmail.com</a></dd>
+          <dt>Address</dt>
+          <dd>104 Goldfields Drive<br>Matarangi 3592, RD2 Whitianga<br>New Zealand</dd>
+        </dl>
+        <div class="contact-actions">
+          <a class="cta-btn" href="mailto:slowjig65@gmail.com?subject=Enquiry%20from%20Gonubie%20website">Email us</a>
+          <a class="cta-btn outline" href="tel:+64226995296">Call</a>
+        </div>
+      </div>
+      <div class="map-frame">
+        <div class="eyebrow">Location</div>
+        <p>104 Goldfields Drive, Matarangi 3592, RD2 Whitianga, New Zealand</p>
+        <div class="coord">36.83°S, 175.70°E</div>
+        <p style="margin-top:18px;"><a href="https://maps.google.com/maps?q=104%20Goldfields%20Drive%20Matarangi%203592%20RD2%20Whitianga%20New%20Zealand" target="_blank" rel="noopener" style="border-bottom:1px solid var(--honey-deep); color:var(--honey-deep); text-decoration:none;">Open in Google Maps →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="tight band-deep">
+    <div class="wrap">
+      <div class="eyebrow">Send an enquiry</div>
+      <h2 style="font-size:clamp(1.4rem,2.4vw,1.9rem); max-width:22ch;">Tell us what you're after</h2>
+      <p style="max-width:56ch;">This form opens your email client with the details filled in, addressed to <b>slowjig65@gmail.com</b> — nothing is sent from this page directly, so nothing is stored on the site itself.</p>
+
+      <form class="form-grid" style="max-width:640px; margin-top:24px;" onsubmit="return sendEnquiry(event)">
+        <div class="form-row-2">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+          </div>
+          <div>
+            <label for="company">Company</label>
+            <input type="text" id="company">
+          </div>
+        </div>
+        <div class="form-row-2">
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+          </div>
+          <div>
+            <label for="interest">Enquiry type</label>
+            <select id="interest">
+              <option>Wholesale / bulk order</option>
+              <option>Retail / private label</option>
+              <option>Distributor enquiry</option>
+              <option>RILEY Mead — distributor</option>
+              <option>RILEY Mead — investor</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" required placeholder="Volumes, grades, destination country, timelines — whatever's useful."></textarea>
+        </div>
+        <button type="submit" class="form-submit">Open email to send</button>
+        <p class="form-note">Prefer to call or write directly? Use the phone or email above.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-grid">
+    <div>
+      <h4>Gonubie Limited</h4>
+      <p style="max-width:34ch; color:#aeb69a;">Family-run apiary and export house on the Coromandel Peninsula, New Zealand. Home of RILEY honey.</p>
+    </div>
+    <div>
+      <h4>Site</h4>
+      <ul class="flist">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="provenance.html">Provenance</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul class="flist">
+        <li><a href="tel:+64226995296">+64 22 699 5296</a></li>
+        <li><a href="mailto:slowjig65@gmail.com">slowjig65@gmail.com</a></li>
+        <li>Matarangi, RD2 Whitianga, NZ</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Gonubie Limited. All rights reserved.</span>
+    <span>Whitianga, New Zealand</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+function sendEnquiry(e){
+  e.preventDefault();
+  const name = document.getElementById('name').value;
+  const company = document.getElementById('company').value;
+  const email = document.getElementById('email').value;
+  const interest = document.getElementById('interest').value;
+  const message = document.getElementById('message').value;
+  const subject = encodeURIComponent('Enquiry from website: ' + interest);
+  const body = encodeURIComponent(
+    'Name: ' + name + '\n' +
+    'Company: ' + company + '\n' +
+    'Email: ' + email + '\n' +
+    'Enquiry type: ' + interest + '\n\n' +
+    message
+  );
+  window.location.href = 'mailto:slowjig65@gmail.com?subject=' + subject + '&body=' + body;
+  return false;
+}
+</script>
+</body>
+</html>
